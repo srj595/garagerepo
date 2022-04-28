@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+.bgheader{
+    background-color:#cdd3d8 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.cardcenter{
+   height: 100% ;
+    margin-top: 130px;
+    
+}
+.bgcolor{
+    background-color:#e7ebf0 ;
+        
+}
+.logcont{
+    background:url("../src/assets/img/prod-1.jpg") ;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.selectwidth{
+    width: 10px;
+}
+.headcenter{
+
+    color: skyblue;
+    text-align: center;
+}
+.headborder{
+    border:1px solid black
+}
+
+.subbtn{
+    
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 15px ;
+   
+
+}
+
+.mainhead{
+    border:1px solid skyblue;
+    padding: 5px;
+}
+
+.addnewbtn{
+  text-align:right  ;
+}
+.centerBox {
+    display:flex;
+    justify-Content: "flex-end";
+    align-Items: "flex-end";
+  }
