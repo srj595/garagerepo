@@ -11,6 +11,7 @@ import { JobcardComponent } from './jobcard/jobcard.component';
 import { MatButtonModule } from '@angular/material/button';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { MatFormField } from '@angular/material/form-field';
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -20,7 +21,8 @@ import { SignupComponent } from './signup/signup.component';
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormField
   ],
   declarations: [
     AppComponent,
