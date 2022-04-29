@@ -61,3 +61,27 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     align-Items: "flex-end";
   }
   
+.text-center{
+    text-align: center;
+}
+.full-width{
+    width:100%
+}
+
+.mt20{
+    margin-top: 10px;
+}
+
+.bdrlogo{
+    border:1px solid skyblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 0px;
+   
+    
+}
+
+.mt0{
+margin-top: 0px;
+}

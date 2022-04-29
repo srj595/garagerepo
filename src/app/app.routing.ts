@@ -5,13 +5,22 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { LoginComponent } from './login/login.component';
+import { JobcardComponent } from './jobcard/jobcard.component';
+import { SignupComponent } from './signup/signup.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes =[
   {
     path: '',
-    component: LoginComponent ,
+    component: SignupComponent ,
     pathMatch: 'full',
    },
+
+  //  {
+  //   path: 'job',
+  //   component: JobcardComponent ,
+  //   pathMatch: 'full',
+  //  },
 
   //  {
   //   path: '',
