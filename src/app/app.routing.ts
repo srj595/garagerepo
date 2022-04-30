@@ -12,7 +12,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 const routes: Routes =[
   {
     path: '',
-    component: SignupComponent ,
+    redirectTo: 'Dashboard' ,
     pathMatch: 'full',
    },
 
@@ -22,14 +22,14 @@ const routes: Routes =[
   //   pathMatch: 'full',
   //  },
 
-  //  {
-  //   path: '',
-  //   component: AdminLayoutComponent,
-  //   children: [{
-  //     path: '',
-  //     loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
-  //   }]
-  // }
+   {
+    path: '',
+    component: AdminLayoutComponent,
+    children: [{
+      path: '',
+      loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
+    }]
+  }
 
 
 ];
