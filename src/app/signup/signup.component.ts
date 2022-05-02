@@ -9,7 +9,24 @@ export class SignupComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  public user={
+    name:'',
+    username:"",
+    password:'',
+    role:'',
+    email:'',
+
+
+
+  }
+
+  ngOnInit(): void { 
+    console.log('hi')
+  }
+
+
+  formSubmit(){
+    alert('successful') 
   }
 
 }
