@@ -16,6 +16,11 @@ import {MatCardModule} from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import {MatIconModule} from '@angular/material/icon';
+
+
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -30,7 +35,10 @@ import { MatSelectModule } from '@angular/material/select';
     MatFormFieldModule,
     MatInputModule,
     MatOptionModule,
-    MatSelectModule
+    MatSelectModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatIconModule
 
   ],
   declarations: [
@@ -41,7 +49,10 @@ import { MatSelectModule } from '@angular/material/select';
     SignupComponent,
 
   ],
-  providers: [],
+  providers: [  
+    MatDatepickerModule,
+
+    MatNativeDateModule  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

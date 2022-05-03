@@ -89,3 +89,16 @@ margin-top: 0px;
 .bgimg{
  background: url('./assets/img/car.jpg');
 }
+
+.btnfrm{
+    
+  padding: auto 1px;
+}
+
+.hrline{
+ margin-top: -10px ; 
+ height:2px;
+ border-width:0;
+ color:#33b5e5;
+ background-color:#33b5e5;
+}
