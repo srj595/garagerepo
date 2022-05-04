@@ -102,3 +102,36 @@ margin-top: 0px;
  color:#33b5e5;
  background-color:#33b5e5;
 }
+
+.iconadd{
+    color:white;
+    background-color: #33b5e5;
+
+}
+
+.totalcost{
+    border: 1px solid #33b5e5 ;
+}
+.tablehd{
+    color:#33b5e5
+}
+.addspare{
+    text-align: end;
+}
+.icondel{
+    color:white;
+    background-color: red;
+
+}
+.iconedt{
+    color:black;
+    background-color: rgb(33, 236, 60);
+
+}
+
+.button1 {padding: 10px 18px;}
+
+.subbtn{
+    text-align:center ;
+    margin-top:15px;
+}

@@ -11,7 +11,8 @@ import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { JobcardComponent } from 'app/jobcard/jobcard.component';
 import { LoginComponent } from 'app/login/login.component';
 import { SignupComponent } from 'app/signup/signup.component';
-
+import { SparelistComponent } from 'app/sparelist/sparelist.component';
+import { AddSpareComponent } from 'app/add-spare/add-spare.component';
 export const AdminLayoutRoutes: Routes = [
     // {
     //   path: '',
@@ -64,6 +65,8 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'notifications',  component: NotificationsComponent },
     { path: 'upgrade',        component: UpgradeComponent },
     { path: 'jobcard',        component: JobcardComponent },
-    { path: 'login',               component: LoginComponent },
+    { path: 'login',          component: LoginComponent },
     { path: 'signup',         component: SignupComponent },
+    { path: 'sparelist',      component: SparelistComponent },
+    { path: 'add-spare',      component: AddSpareComponent },
 ];

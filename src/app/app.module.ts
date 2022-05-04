@@ -19,6 +19,8 @@ import { MatSelectModule } from '@angular/material/select';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatIconModule} from '@angular/material/icon';
+import { SparelistComponent } from './sparelist/sparelist.component';
+import { AddSpareComponent } from './add-spare/add-spare.component';
 
 
 @NgModule({
@@ -47,6 +49,8 @@ import {MatIconModule} from '@angular/material/icon';
     JobcardComponent,
     LoginComponent,
     SignupComponent,
+    SparelistComponent,
+    AddSpareComponent,
 
   ],
   providers: [  

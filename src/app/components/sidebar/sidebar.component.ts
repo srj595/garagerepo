@@ -17,7 +17,8 @@ export const ROUTES: RouteInfo[] = [
     { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
     { path: '/upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
     { path: '/jobcard', title: 'jobCard',  icon:'notifications', class: '' },
-    
+    { path: '/sparelist', title: 'sparelist',  icon:'notifications', class: '' },
+    { path: '/add-spare', title: 'add spare',  icon:'notifications', class: '' },
 ];
 
 
