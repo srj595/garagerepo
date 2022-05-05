@@ -13,6 +13,9 @@ import { LoginComponent } from 'app/login/login.component';
 import { SignupComponent } from 'app/signup/signup.component';
 import { SparelistComponent } from 'app/sparelist/sparelist.component';
 import { AddSpareComponent } from 'app/add-spare/add-spare.component';
+import { ServicesListComponent } from 'app/services-list/services-list.component';
+import { AddServicesComponent } from 'app/add-services/add-services.component';
+
 export const AdminLayoutRoutes: Routes = [
     // {
     //   path: '',
@@ -69,4 +72,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'signup',         component: SignupComponent },
     { path: 'sparelist',      component: SparelistComponent },
     { path: 'add-spare',      component: AddSpareComponent },
+    { path: 'services-list',  component: ServicesListComponent },
+    { path: 'add-services',  component: AddServicesComponent },
 ];

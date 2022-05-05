@@ -21,6 +21,8 @@ import { MatNativeDateModule } from '@angular/material/core';
 import {MatIconModule} from '@angular/material/icon';
 import { SparelistComponent } from './sparelist/sparelist.component';
 import { AddSpareComponent } from './add-spare/add-spare.component';
+import { ServicesListComponent } from './services-list/services-list.component';
+import { AddServicesComponent } from './add-services/add-services.component';
 
 
 @NgModule({
@@ -51,6 +53,8 @@ import { AddSpareComponent } from './add-spare/add-spare.component';
     SignupComponent,
     SparelistComponent,
     AddSpareComponent,
+    ServicesListComponent,
+    AddServicesComponent,
 
   ],
   providers: [  
