@@ -1,0 +1,99 @@
+<div>
+    <h4 class="font-weight-bold">Services</h4>
+    <hr class="hrline">
+      
+</div>
+<div class="row">
+    <div class="col-md-4">
+            <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>service type</mat-label>
+            <mat-select>
+                <mat-option value='a'>1</mat-option>
+                <mat-option value='b'>2</mat-option>
+                <mat-option value='c'>3</mat-option>
+                <mat-option value='d'>4</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div class="col-md-4">
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>service Name</mat-label>
+            <mat-select>
+                <mat-option value='a'>1</mat-option>
+                <mat-option value='b'>2</mat-option>
+                <mat-option value='c'>3</mat-option>
+                <mat-option value='d'>4</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div class="col-md-3">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <input matInput placeholder="Service Cost" type="text">
+        </mat-form-field>
+    </div>
+    <div class="col-md-1" style="margin-top:12px;" >
+       
+            <a href="#"><mat-icon class="iconadd">add_box</mat-icon></a>
+
+    </div>
+
+</div>
+
+<!-- table -->
+<!-- <div class="main-content">
+    <div class="container-fluid"> -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <!-- <div class="card-header card-header-danger">
+                        <h4 class="card-title ">Simple Table</h4>
+                        <p class="card-category"> Here is a subtitle for this table</p>
+                    </div> -->
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" tablehd">
+                        
+
+                                        <th>
+                                            ID
+                                        </th>
+                                    
+                                        <th>
+                                            Service Name
+                                        </th>
+                                        <th>
+                                            Service cost
+                                        </th>
+                                        
+                                    
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let arr of array"    >
+                                        <td>{{arr.ID}}</td>
+                                        <td>{{arr.ServiceName}}</td>
+                                        <td>{{arr.ServiceCost}}</td>
+                                        
+                                       
+                
+                                        
+                                       
+                                    </tr>
+                                   
+                                    
+                                    
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="row">
+    <div class="col-md-6 offset-md-3  ">
+        <h4 >Total Service Cost = </h4>
+    </div>
+</div>
+<hr style="width:100%;text-align:left;margin-left:0">

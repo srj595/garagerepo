@@ -9,18 +9,18 @@ declare interface RouteInfo {
 }
 export const ROUTES: RouteInfo[] = [
     { path: '/dashboard', title: 'Dashboard',  icon: 'dashboard', class: '' },
-    { path: '/user-profile', title: 'User Profile',  icon:'person', class: '' },
-    { path: '/table-list', title: 'Table List',  icon:'content_paste', class: '' },
-    { path: '/typography', title: 'Typography',  icon:'library_books', class: '' },
-    { path: '/icons', title: 'Icons',  icon:'bubble_chart', class: '' },
-    { path: '/maps', title: 'Maps',  icon:'location_on', class: '' },
-    { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
-    { path: '/upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
-    { path: '/jobcard', title: 'jobCard',  icon:'notifications', class: '' },
-    { path: '/sparelist', title: 'sparelist',  icon:'notifications', class: '' },
-    { path: '/add-spare', title: 'add spare',  icon:'notifications', class: '' },
-    { path: '/services-list', title: 'services list',  icon:'notifications', class: '' },
-    { path: '/add-services', title: 'ADD services ',  icon:'notifications', class: '' },
+    // { path: '/user-profile', title: 'User Profile',  icon:'person', class: '' },
+    // { path: '/table-list', title: 'Table List',  icon:'content_paste', class: '' },
+    // { path: '/typography', title: 'Typography',  icon:'library_books', class: '' },
+    // { path: '/icons', title: 'Icons',  icon:'bubble_chart', class: '' },
+    // { path: '/maps', title: 'Maps',  icon:'location_on', class: '' },
+    // { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
+    // { path: '/upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
+    { path: '/jobcard', title: 'jobCard',  icon:'local_taxi', class: '' },
+    { path: '/sparelist', title: 'Spare List',  icon:'assignment', class: '' },
+    // { path: '/add-spare', title: 'add spare',  icon:'notifications', class: '' },
+    { path: '/services-list', title: 'Services List',  icon:'assignment', class: '' },
+    // { path: '/add-services', title: 'ADD services ',  icon:'notifications', class: '' },
 
 ];
 

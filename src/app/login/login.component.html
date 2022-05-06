@@ -1,18 +1,16 @@
 
-<div class="bootstrap-wrapper ">
-    <div class="container  h-100">
-        <div class="row h-100 align-items-center ">
-            <div class="col-md-5 " style="border:1px solid black">
-                <h1>GMS</h1>
-
-            </div>
-            <div class="col-md-5 offset-md-7 ">
+<div class="bootstrap-wrapper " style="height:100vh">
+    <div class="container  text-center h-100">
+        
+        <div class="row h-100 flex-row align-items-center justify-content-center">
+          
+            <div class="col-md-5">
                 <mat-card>
 
                     <div class="container text-center ">
                         <img class="bdrlogo" src="../../assets/img/garage.png" style="height:120px ; width:140px" />
                     </div>
-                    <h1 class="font-weight-bold">Login Here...</h1>
+                    <h1 class="font-weight-bold text-center">Login Here...</h1>
                     <form action="">
                         <!-- username area --> 
 
@@ -41,15 +39,21 @@
 
                         <!-- button area -->
 
-                        <div class="    text-center">
+                        <div class="text-center">
 
-                            <button type="button" class="btn btn-primary p">Log In</button>
+                            <button  routerLink='/dash' type="button" class="btn btn-primary p ">Log In</button>
+                            
                         </div>
+                        <div class="text-center mt-2">
+                           <a [routerLink]="['/signup']" class=" sign">Sign Up</a> 
+                        </div>
+                        
 
                     </form>
                 </mat-card>
 
             </div>
         </div>
+        
     </div>
 </div>

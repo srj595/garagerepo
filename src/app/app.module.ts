@@ -23,6 +23,7 @@ import { SparelistComponent } from './sparelist/sparelist.component';
 import { AddSpareComponent } from './add-spare/add-spare.component';
 import { ServicesListComponent } from './services-list/services-list.component';
 import { AddServicesComponent } from './add-services/add-services.component';
+import { JobcardServicesComponent } from './jobcard-services/jobcard-services.component';
 
 
 @NgModule({
@@ -55,6 +56,7 @@ import { AddServicesComponent } from './add-services/add-services.component';
     AddSpareComponent,
     ServicesListComponent,
     AddServicesComponent,
+    JobcardServicesComponent,
 
   ],
   providers: [  
