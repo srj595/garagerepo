@@ -11,14 +11,14 @@
                         <img class="bdrlogo" src="../../assets/img/garage.png" style="height:120px ; width:140px" />
                     </div>
                     <h1 class="font-weight-bold text-center">Login Here...</h1>
-                    <form action="">
+                    <form action="" #logForm="ngForm">
                         <!-- username area --> 
 
                         <mat-form-field class="full-width" appearance="outline">
                             <mat-label>
                                 Username
                             </mat-label>
-                            <input required matInput placeholder="Enter Username" />
+                            <input required ngModel matInput placeholder="Enter Username" />   
 
 
 
@@ -31,7 +31,7 @@
                             <mat-label>
                                 Password
                             </mat-label>
-                            <input required matInput placeholder="Enter Password" />
+                            <input required ngModel matInput placeholder="Enter Password" />
 
 
 
@@ -41,7 +41,7 @@
 
                         <div class="text-center">
 
-                            <button  routerLink='/dash' type="button" class="btn btn-primary p ">Log In</button>
+                            <button  [disabled]="!logForm.valid" type="submit" class="btn btn-primary p ">Log In</button>
                             
                         </div>
                         <div class="text-center mt-2">

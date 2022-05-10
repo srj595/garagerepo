@@ -11,16 +11,16 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes =[
   {
-    path: '',
+    path: 'dash',
     redirectTo: 'Dashboard' ,
     pathMatch: 'full',
    },
 
-  //  {
-  //   path: '',
-  //   component: LoginComponent ,
-  //   pathMatch: 'full',
-  //  },
+   {
+    path: '',
+    component: LoginComponent ,
+    pathMatch: 'full',
+   },
 
    {
     path: 'signup',

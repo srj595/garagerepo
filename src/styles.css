@@ -148,3 +148,11 @@ margin-top: 0px;
   .sign{
       color:#4285F4 !important ;
   }
+
+  .formbdr{
+      border: 1px solid black;
+  }
+
+  input.ng.invalid.ng.touched{
+      border-color: red;
+  }

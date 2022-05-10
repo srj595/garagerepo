@@ -59,7 +59,7 @@ import { JobcardServicesComponent } from './jobcard-services/jobcard-services.co
     JobcardServicesComponent,
 
   ],
-  providers: [  
+  providers: [
     MatDatepickerModule,
 
     MatNativeDateModule  ],
