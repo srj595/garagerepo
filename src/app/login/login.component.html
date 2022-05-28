@@ -1,21 +1,31 @@
+<<<<<<< HEAD
 <div class="bootstrap-wrapper imgbg " style="height:100vh ">
     <div class="container text-center h-100">
         <div class="row  h-100 d-flex flex-row align-items-center ">
             <div class="col-md-6 offset-md-3 ">
+=======
+
+<div class="bootstrap-wrapper " style="height:100vh">
+    <div class="container  text-center h-100">
+        
+        <div class="row h-100 flex-row align-items-center justify-content-center">
+          
+            <div class="col-md-5">
+>>>>>>> 8c0064c64fe7abc703d078287d4aec7bdba88f9a
                 <mat-card>
 
                     <div class="container text-center ">
                         <img class="bdrlogo" src="../../assets/img/garage.png" style="height:120px ; width:140px" />
                     </div>
-                    <h1 class="font-weight-bold">Login Here...</h1>
-                    <form action="">
+                    <h1 class="font-weight-bold text-center">Login Here...</h1>
+                    <form action="" #logForm="ngForm">
                         <!-- username area --> 
 
                         <mat-form-field class="full-width" appearance="outline">
                             <mat-label>
                                 Username
                             </mat-label>
-                            <input required matInput placeholder="Enter Username" />
+                            <input required ngModel matInput placeholder="Enter Username" />   
 
 
 
@@ -28,7 +38,7 @@
                             <mat-label>
                                 Password
                             </mat-label>
-                            <input required matInput placeholder="Enter Password" />
+                            <input required ngModel matInput placeholder="Enter Password" />
 
 
 
@@ -36,15 +46,21 @@
 
                         <!-- button area -->
 
-                        <div class="container text-center">
+                        <div class="text-center">
 
-                            <button mat-raised-button color="primary">Login</button>
+                            <button  [disabled]="!logForm.valid" type="submit" class="btn btn-primary p ">Log In</button>
+                            
                         </div>
+                        <div class="text-center mt-2">
+                           <a [routerLink]="['/signup']" class=" sign">Sign Up</a> 
+                        </div>
+                        
 
                     </form>
                 </mat-card>
 
             </div>
         </div>
+        
     </div>
 </div>

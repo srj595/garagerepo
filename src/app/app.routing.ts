@@ -10,11 +10,33 @@ import { SignupComponent } from './signup/signup.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes =[
+<<<<<<< HEAD
   // {
   //   path: '',
   //   redirectTo: 'Dashboard' ,
   //   pathMatch: 'full',
   //  },
+=======
+  {
+    path: 'dash',
+    redirectTo: 'Dashboard' ,
+    pathMatch: 'full',
+   },
+
+   {
+    path: '',
+    component: LoginComponent ,
+    pathMatch: 'full',
+   },
+
+   {
+    path: 'signup',
+    component: SignupComponent ,
+    pathMatch: 'full',
+   },
+
+
+>>>>>>> 8c0064c64fe7abc703d078287d4aec7bdba88f9a
 
    {
     path: '',
