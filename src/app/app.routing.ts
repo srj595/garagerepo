@@ -10,26 +10,26 @@ import { SignupComponent } from './signup/signup.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes =[
-  {
-    path: '',
-    redirectTo: 'Dashboard' ,
-    pathMatch: 'full',
-   },
-
-  //  {
-  //   path: 'job',
-  //   component: JobcardComponent ,
+  // {
+  //   path: '',
+  //   redirectTo: 'Dashboard' ,
   //   pathMatch: 'full',
   //  },
 
    {
     path: '',
-    component: AdminLayoutComponent,
-    children: [{
-      path: '',
-      loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
-    }]
-  }
+    component: SignupComponent ,
+    pathMatch: 'full',
+   },
+
+  //  {
+  //   path: '',
+  //   component: AdminLayoutComponent,
+  //   children: [{
+  //     path: '',
+  //     loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
+  //   }]
+  // }
 
 
 ];
